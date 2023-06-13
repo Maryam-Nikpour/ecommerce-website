@@ -72,3 +72,53 @@ button {
   color: #465b52;
   font-size: 16px;
 }
+/* features Style */
+#features {
+  display: flex;
+  height: 300px;
+  justify-content: space-between;
+  height: 300px;
+  margin: 20px;
+}
+.features-box {
+  border: 1px solid #cce7d0;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  height: 200px;
+  margin-top: 45px;
+}
+.features-box p {
+  margin: 15px auto;
+  height: 30px;
+  width: 100px;
+  padding-top: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #088178;
+}
+#features .features-box:nth-child(1) p {
+    background-color: #fddde4;
+  }
+  #features .features-box:nth-child(2) p {
+    background-color:  #cdebbc;
+  }
+  #features .features-box:nth-child(3) p {
+    background-color:#d1e8f2
+  }
+  #features .features-box:nth-child(4) p {
+    background-color: #cdd4f8;
+  }
+  #features .features-box:nth-child(5) p {
+    background-color: #f6dbf6;
+  }
+  #features .features-box:nth-child(6) p {
+    background-color: #fff2e5;
+  }
+  #features .features-box:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+
+
