@@ -57,7 +57,7 @@
   font-size: 70px;
   margin-bottom: 20px;
 }
-button {
+.text1 button {
   background-image: url("/images/button.png");
   width: 200px;
   height: 50px;
@@ -178,4 +178,38 @@ color: #969696;
 }
 .product-cart:hover{
   box-shadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+/*Banner section*/
+.banner{
+  height: 40vh;
+  background-image: url("/images/banner/b2.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner button{
+  background-color: white;
+ font-size: 20px;
+ padding: 10px 30px;
+ border-radius: 5px;
+ cursor: pointer;
+ margin-top: 20px;
+ border: none;
+
+}
+.banner button:hover{
+  background-color: #088178;
+  transition: 0.2s;
+}
+.banner h1{
+  color: white;
+
+}
+.banner h2{
+  color: #eaebf0;
+  margin-bottom: 30px;
 }
