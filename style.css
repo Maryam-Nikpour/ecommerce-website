@@ -190,6 +190,7 @@ color: #969696;
   flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 40px 0;
 }
 .banner button{
   background-color: white;
@@ -199,6 +200,7 @@ color: #969696;
  cursor: pointer;
  margin-top: 20px;
  border: none;
+ 
 
 }
 .banner button:hover{
