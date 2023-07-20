@@ -336,3 +336,68 @@ justify-content: center;
 .small-banner3 h5{
   color: #771818;
 }
+/*Newsletters section*/
+.Newsletters{
+  height: 25vh;
+  width: 100%;
+  margin: 30px 0px;
+  background-image: url(images/banner/b14.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-color: #041e42;
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+  align-items: center;
+ 
+}
+.newsletterinfo{
+  
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+}
+.newsletterinfo h2{
+  color: white;
+  line-height: 2;
+  font-size: 30px;
+ 
+}
+.newsletterinfo h5{
+line-height: 2;
+color: rgb(151, 151, 151);
+font-size: 17px;
+}
+.newsletterinfo h5 span{
+  color: rgb(216, 182, 29);
+}
+.form{
+  background-color: red;
+  height: 50px;
+  display: flex;
+  width: 400px;
+  border-radius: 20px;
+
+ 
+}
+.form button{
+  background-color: #088178;
+  color: white;
+  border: none;
+  width: 120px;
+  font-size: 17px;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+ 
+  
+}
+#emailaddress{
+  height: 50px;
+  width: 350px;
+  background-color: #d1d0d0;
+  border-radius: 6px 0 0 6px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+padding: 20px;
+}
