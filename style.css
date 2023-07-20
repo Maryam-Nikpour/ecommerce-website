@@ -29,9 +29,12 @@
   text-decoration: none;
   color: #1a1a1a;
 }
-#Home {
+.nav-item a:hover{
   color: #088178;
+  text-decoration: underline;
+  cursor: pointer;
 }
+
 /* Section1 Style */
 .section1 {
   background-image: url("/images/hero4.png");
