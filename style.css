@@ -12,6 +12,9 @@
   align-items: center;
   padding: 0 70px;
   border-bottom: solid 2px white;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 .nav-list {
   display: flex;
