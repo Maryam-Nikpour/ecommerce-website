@@ -340,7 +340,7 @@ justify-content: center;
 .Newsletters{
   height: 25vh;
   width: 100%;
-  margin: 30px 0px;
+  margin-top: 30px;
   background-image: url(images/banner/b14.png);
   background-position: left;
   background-repeat: no-repeat;
@@ -399,5 +399,58 @@ font-size: 17px;
   font-size: 18px;
   border: none;
   outline: none;
-padding: 20px;
+  padding: 20px;
+}
+
+/*Footer section*/
+
+.footer{
+  display: flex;
+  padding: 75px;
+  justify-content: space-between;
+  background-color: #ececec;
+}
+.contact{
+  color: rgb(109, 109, 109);
+  line-height: 2;
+
+}
+.socials i{
+  color: #6d6d6d;
+ 
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+ 
+}
+.about a{
+  text-decoration: none;
+  color:  rgb(109, 109, 109);
+}
+.Myaccount{
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+}
+.Myaccount a{
+  text-decoration: none;
+  color: rgb(109, 109, 109);
+ 
+}
+.install{
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+
+}
+.install a{
+  text-decoration: none;
+  color:  rgb(109, 109, 109);
+ 
+}
+.pay img{
+  border: 1px solid #08817969;
+  border-radius: 7px;
 }
